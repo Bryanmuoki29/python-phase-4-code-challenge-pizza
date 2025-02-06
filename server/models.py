@@ -1,5 +1,5 @@
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.orm import validates
+from flask_sqlalchemy import SQLAlchemy # type: ignore
+from sqlalchemy.orm import validates # type: ignore
 
 db = SQLAlchemy()
 

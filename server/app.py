@@ -1,8 +1,8 @@
 # app.py
 
 from flask import Flask, jsonify, request
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.orm import validates
+from flask_sqlalchemy import SQLAlchemy # type: ignore
+from sqlalchemy.orm import validates # type: ignore
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'

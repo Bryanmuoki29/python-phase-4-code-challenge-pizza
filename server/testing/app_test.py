@@ -1,6 +1,6 @@
 # test_app.py
 
-import pytest
+import pytest # type: ignore
 from app import app, db
 from models import Restaurant, Pizza, RestaurantPizza
 from seed import seed_database  # Assuming a function to seed the database
